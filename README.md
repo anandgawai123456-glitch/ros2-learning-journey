@@ -1,6 +1,3 @@
-Sure, Anand! Here's a professional and clean **README** you can use for your GitHub repository for your ROS2 learning project so far. You can update it later as you add hardware projects.
-
----
 
 # **ROS2 Learning Journey - Anand Gawai**
 
