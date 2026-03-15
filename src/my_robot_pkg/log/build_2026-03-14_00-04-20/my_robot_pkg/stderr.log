@@ -1,0 +1,5 @@
+  File "/home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temprature_publisher.py", line 21
+    main(args=None):
+                   ^
+SyntaxError: invalid syntax
+

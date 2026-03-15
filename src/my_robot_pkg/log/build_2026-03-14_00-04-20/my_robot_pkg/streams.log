@@ -1,0 +1,54 @@
+[0.698s] Invoking command in '/home/anand/ros2_ws/src/my_robot_pkg': PYTHONPATH=/home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_pkg build --build-base /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build install --record /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/install.log --single-version-externally-managed install_data
+[0.982s] running egg_info
+[0.983s] creating build/my_robot_pkg/my_robot_pkg.egg-info
+[0.983s] writing build/my_robot_pkg/my_robot_pkg.egg-info/PKG-INFO
+[0.984s] writing dependency_links to build/my_robot_pkg/my_robot_pkg.egg-info/dependency_links.txt
+[0.984s] writing entry points to build/my_robot_pkg/my_robot_pkg.egg-info/entry_points.txt
+[0.984s] writing requirements to build/my_robot_pkg/my_robot_pkg.egg-info/requires.txt
+[0.984s] writing top-level names to build/my_robot_pkg/my_robot_pkg.egg-info/top_level.txt
+[0.985s] writing manifest file 'build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[0.987s] reading manifest file 'build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[0.988s] writing manifest file 'build/my_robot_pkg/my_robot_pkg.egg-info/SOURCES.txt'
+[0.988s] running build
+[0.988s] running build_py
+[0.988s] creating /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build
+[0.989s] creating /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib
+[0.989s] creating /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg
+[0.989s] copying my_robot_pkg/publisher_node.py -> /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg
+[0.989s] copying my_robot_pkg/turtle_controller.py -> /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg
+[0.989s] copying my_robot_pkg/__init__.py -> /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg
+[0.990s] copying my_robot_pkg/temprature_publisher.py -> /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg
+[0.990s] copying my_robot_pkg/subscriber_node.py -> /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg
+[0.990s] running install
+[0.991s] running install_lib
+[0.992s] creating /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[0.993s] copying /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg/publisher_node.py -> /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[0.993s] copying /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg/turtle_controller.py -> /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[0.993s] copying /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg/__init__.py -> /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[0.993s] copying /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg/temprature_publisher.py -> /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[0.993s] copying /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build/lib/my_robot_pkg/subscriber_node.py -> /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg
+[0.994s] byte-compiling /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/publisher_node.py to publisher_node.cpython-310.pyc
+[0.995s] byte-compiling /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.995s] byte-compiling /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/__init__.py to __init__.cpython-310.pyc
+[0.996s] byte-compiling /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temprature_publisher.py to temprature_publisher.cpython-310.pyc
+[0.996s]   File "/home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/temprature_publisher.py", line 21
+[0.997s]     main(args=None):
+[0.997s]                    ^
+[0.997s] SyntaxError: invalid syntax
+[0.997s] 
+[0.997s] byte-compiling /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg/subscriber_node.py to subscriber_node.cpython-310.pyc
+[0.998s] running install_data
+[0.998s] creating /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/share/ament_index
+[0.998s] creating /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/share/ament_index/resource_index
+[0.998s] creating /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/share/ament_index/resource_index/packages
+[0.998s] copying resource/my_robot_pkg -> /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/share/ament_index/resource_index/packages
+[0.998s] copying package.xml -> /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/share/my_robot_pkg
+[0.998s] running install_egg_info
+[1.001s] Copying build/my_robot_pkg/my_robot_pkg.egg-info to /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages/my_robot_pkg-0.0.0-py3.10.egg-info
+[1.002s] running install_scripts
+[1.027s] Installing publisher_node script to /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/my_robot_pkg
+[1.027s] Installing subscriber_node script to /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/my_robot_pkg
+[1.028s] Installing temperature_publisher script to /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/my_robot_pkg
+[1.028s] Installing turtle_controller script to /home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/my_robot_pkg
+[1.029s] writing list of installed files to '/home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/install.log'
+[1.061s] Invoked command in '/home/anand/ros2_ws/src/my_robot_pkg' returned '0': PYTHONPATH=/home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/ros2_ws/src/my_robot_pkg/install/my_robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_robot_pkg build --build-base /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/build install --record /home/anand/ros2_ws/src/my_robot_pkg/build/my_robot_pkg/install.log --single-version-externally-managed install_data
