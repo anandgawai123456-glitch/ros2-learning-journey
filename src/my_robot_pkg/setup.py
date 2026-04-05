@@ -11,7 +11,7 @@ setup(
         ('share/ament_index/resource_index/packages',
               ['resource/my_robot_pkg']),
         ('share/my_robot_pkg', ['package.xml']),
-        ('share/my_robot_pkg/launch', ['launch/my_robot_launch.py']),
+        ('share/my_robot_pkg/launch', ['launch/simple_arm.launch.py']),
 
     ],
 
@@ -37,6 +37,8 @@ setup(
             'temperature_service = my_robot_pkg.temperature_service:main',
             'robot_controller = my_robot_pkg.robot_controller:main', 
             'go_to_goal = my_robot_pkg.turtle_go_to_goal:main',
+            'ultrasonic_pub = my_robot_pkg.ultrasonic_publisher:main',
+            'draw_circle = my_robot_controller.draw_circle:main'
        ],
 
      },

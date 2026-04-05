@@ -1,0 +1,16 @@
+spawn = TimerAction(
+    period=3.0,
+    actions=[
+        Node(
+            package='gazebo_ros',
+            executable='spawn_entity.py',
+            arguments=[
+                '-entity', 'simple_arm',
+                '-file', os.path.join(
+                    os.getcwd(), 'src/my_robot_pkg/urdf/simple_arm.urdf'
+                )
+            ],
+            output='screen'
+        )
+    ]
+)

@@ -1,4 +1,5 @@
 [console_scripts]
+draw_circle = my_robot_controller.draw_circle:main
 go_to_goal = my_robot_pkg.turtle_go_to_goal:main
 publisher_node = my_robot_pkg.publisher_node:main
 robot_controller = my_robot_pkg.robot_controller:main
@@ -8,4 +9,5 @@ temperature_subscriber = my_robot_pkg.temperature_subscriber:main
 temprature_publisher = my_robot_pkg.temprature_publisher:main
 temprature_subscriber = my_robot_pkg.temprature_subscriber:main
 turtle_controller = my_robot_pkg.turtle_controller:main
+ultrasonic_pub = my_robot_pkg.ultrasonic_publisher:main
 
